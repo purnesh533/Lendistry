@@ -22,7 +22,11 @@ from config import (
 
 APPLICATIONS_CSV = ARTIFACTS / "applications_scored.csv"
 WEEKLY_CSV = ARTIFACTS / "weekly_insights.csv"
-DECISIONS_PATH = ARTIFACTS / "decisions.json"
+
+import os as _os
+_SERVERLESS = bool(_os.environ.get("VERCEL") or _os.environ.get("AWS_LAMBDA_FUNCTION_NAME"))
+_TMP = Path("/tmp/pd_demo_artifacts") if _SERVERLESS else ARTIFACTS
+DECISIONS_PATH = _TMP / "decisions.json"
 
 RISK_LOW = "Lower risk"
 RISK_MOD = "Moderately risky"
@@ -152,7 +156,7 @@ def load_decisions() -> dict:
 
 
 def save_decisions(data: dict) -> None:
-    ARTIFACTS.mkdir(parents=True, exist_ok=True)
+    DECISIONS_PATH.parent.mkdir(parents=True, exist_ok=True)
     DECISIONS_PATH.write_text(json.dumps(data, indent=2), encoding="utf-8")
 
 
@@ -293,12 +297,18 @@ def business_driver_bullets(n: int = 6) -> list[dict]:
 
 
 def ensure_business_artifacts(force: bool = False) -> None:
-    ARTIFACTS.mkdir(parents=True, exist_ok=True)
+    try:
+        ARTIFACTS.mkdir(parents=True, exist_ok=True)
+    except OSError:
+        pass
     if force or not APPLICATIONS_CSV.exists() or not WEEKLY_CSV.exists():
         apps = build_applications()
         weekly = build_weekly_summary(apps)
-        apps.to_csv(APPLICATIONS_CSV, index=False)
-        weekly.to_csv(WEEKLY_CSV, index=False)
+        try:
+            apps.to_csv(APPLICATIONS_CSV, index=False)
+            weekly.to_csv(WEEKLY_CSV, index=False)
+        except OSError:
+            pass
 
 
 if __name__ == "__main__":
