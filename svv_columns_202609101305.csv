@@ -1,0 +1,591 @@
+"schema","table","column","datatype"
+nls,cif_detail,cifno,numeric
+nls,loanacct_payment_history,row_id,numeric
+nls,nlsusers,userno,numeric
+nls,loan_transaction_codes,transaction_code,numeric
+nls,loanacct_detail,userdef01,character varying
+nls,loanacct_gl_trans,row_id,numeric
+nls,loanacct,acctrefno,numeric
+nls,cdfi,cdfiid,numeric
+nls,daily_trial_balance,row_id,numeric
+nls,relationship_codes,relationship_code_id,numeric
+nls,cif_detail,userdef01,character varying
+nls,loanacct_payment_history,acctrefno,numeric
+nls,nlsusers,signonid,character varying
+nls,loan_transaction_codes,transaction_description,character varying
+nls,loanacct_detail,acctrefno,numeric
+nls,loanacct_gl_trans,acctrefno,numeric
+nls,loanacct,loan_type,numeric
+nls,cdfi,cifno,numeric
+nls,daily_trial_balance,acctrefno,numeric
+nls,relationship_codes,relationship_type,numeric
+nls,cif_detail,userdef02,character varying
+nls,loanacct_payment_history,payment_reference_no,numeric
+nls,nlsusers,username,character varying
+nls,loan_transaction_codes,statement_description,character varying
+nls,loanacct_detail,userdef02,character varying
+nls,loanacct_gl_trans,disbursement_check_id,numeric
+nls,loanacct,portfolio_code_id,numeric
+nls,cdfi,minorityowned,numeric
+nls,daily_trial_balance,risk_rating_no,numeric
+nls,relationship_codes,relationship_code,character varying
+nls,cif_detail,userdef03,character varying
+nls,loanacct_payment_history,transaction_reference_no,numeric
+nls,nlsusers,password,character varying
+nls,loan_transaction_codes,loan_balance_1_affected,character varying
+nls,loanacct_detail,userdef03,character varying
+nls,loanacct_gl_trans,loan_group_no,numeric
+nls,loanacct,loan_group_no,numeric
+nls,cdfi,womanowned,numeric
+nls,daily_trial_balance,status_code_no,numeric
+nls,relationship_codes,field_order,numeric
+nls,cif_detail,userdef04,character varying
+nls,loanacct_payment_history,date_due,timestamp without time zone
+nls,nlsusers,setupdate,timestamp without time zone
+nls,loan_transaction_codes,transaction_classification,numeric
+nls,loanacct_detail,userdef04,character varying
+nls,loanacct_gl_trans,participantrefno,numeric
+nls,loanacct,master_acctrefno,numeric
+nls,cdfi,lowincomestatus,numeric
+nls,daily_trial_balance,trial_balance_date,timestamp without time zone
+nls,relationship_codes,relationship_code_description,character varying
+nls,cif_detail,userdef05,character varying
+nls,loanacct_payment_history,participant_reference_no,numeric
+nls,nlsusers,dbapriv,numeric
+nls,loan_transaction_codes,loan_balance_1_trans_type,character varying
+nls,loanacct_detail,userdef05,character varying
+nls,loanacct,pool_acctrefno,numeric
+nls,cdfi,lowincomeowned,numeric
+nls,loanacct_gl_trans,transrefno,numeric
+nls,daily_trial_balance,loan_group_no,numeric
+nls,relationship_codes,ecoa_code,character varying
+nls,cif_detail,userdef06,character varying
+nls,loanacct_payment_history,consolidated_reference_no,numeric
+nls,nlsusers,userpwchange,numeric
+nls,loan_transaction_codes,loan_balance_2_affected,character varying
+nls,loanacct_detail,userdef06,character varying
+nls,loanacct_gl_trans,transcode,numeric
+nls,loanacct,restructured_acctrefno,numeric
+nls,cdfi,hispanicorigin,numeric
+nls,daily_trial_balance,participant_detail_flag,numeric
+nls,relationship_codes,option_flags,numeric
+nls,cif_detail,userdef07,character varying
+nls,loanacct_payment_history,impound_id,numeric
+nls,nlsusers,minpwlength,numeric
+nls,loan_transaction_codes,loan_statistics_1_affected,character varying
+nls,loanacct_detail,userdef07,character varying
+nls,loanacct_gl_trans,transaction_date,timestamp without time zone
+nls,loanacct,shadow_loan_exists,numeric
+nls,cdfi,femaleheadhousehold,numeric
+nls,daily_trial_balance,participantrefno,numeric
+nls,relationship_codes,employer_type,numeric
+nls,cif_detail,userdef08,character varying
+nls,loanacct_payment_history,date_paid,timestamp without time zone
+nls,nlsusers,periodicpwchange,numeric
+nls,loan_transaction_codes,loan_stats_1_trans_type,character varying
+nls,loanacct_detail,userdef08,character varying
+nls,loanacct_gl_trans,effective_date,timestamp without time zone
+nls,loanacct,cifno,numeric
+nls,cdfi,firsttimehomebuyer,numeric
+nls,daily_trial_balance,interest_rate,numeric
+nls,relationship_codes,employer_active,numeric
+nls,cif_detail,userdef09,character varying
+nls,loanacct_payment_history,payment_number,numeric
+nls,nlsusers,lastpwchange,timestamp without time zone
+nls,loan_transaction_codes,loan_balance_2_trans_type,character varying
+nls,loanacct_detail,userdef09,character varying
+nls,loanacct_gl_trans,gl_date,timestamp without time zone
+nls,loanacct,dealer_cifno,numeric
+nls,cdfi,othertargetpopulations,numeric
+nls,daily_trial_balance,loan_amount,numeric
+nls,relationship_codes,relationship_entity,numeric
+nls,cif_detail,userdef10,character varying
+nls,loanacct_payment_history,gl_date,timestamp without time zone
+nls,nlsusers,nextpwchange,timestamp without time zone
+nls,loan_transaction_codes,payment_type,character varying
+nls,loanacct_detail,userdef10,character varying
+nls,loanacct_gl_trans,transaction_type,numeric
+nls,loanacct,name,character varying
+nls,cdfi,investeetype,numeric
+nls,daily_trial_balance,principal_balance,numeric
+nls,relationship_codes,object_def,character varying
+nls,cif_detail,userdef11,character varying
+nls,nlsusers,lastlogin,timestamp without time zone
+nls,loan_transaction_codes,loan_statistics_3_affected,character varying
+nls,loanacct_detail,userdef11,character varying
+nls,loanacct_gl_trans,transaction_amount,numeric
+nls,loanacct,loan_class1_no,numeric
+nls,cdfi,entitystructure,numeric
+nls,loanacct_payment_history,payment_type,character varying
+nls,daily_trial_balance,interest_balance,numeric
+nls,relationship_codes,tfs_status_flag,numeric
+nls,cif_detail,userdef12,character varying
+nls,loanacct_payment_history,payment_amount,numeric
+nls,nlsusers,disabled,numeric
+nls,loan_transaction_codes,payment_processing_type,character varying
+nls,loanacct_detail,userdef12,character varying
+nls,loanacct_gl_trans,transaction_amount_float,numeric
+nls,loanacct,loan_class2_no,numeric
+nls,cdfi,annualgrossrevenue,numeric
+nls,daily_trial_balance,udf1_balance,numeric
+nls,relationship_codes,tfs_check_out_name,character varying
+nls,cif_detail,userdef13,character varying
+nls,nlsusers,deletion_flag,numeric
+nls,loan_transaction_codes,loan_statistics_4_affected,character varying
+nls,loanacct_detail,userdef13,character varying
+nls,loanacct_gl_trans,gl_debit,numeric
+nls,loanacct,shortname,character varying
+nls,cdfi,dateestablished,timestamp without time zone
+nls,loanacct_payment_history,payment_description,character varying
+nls,daily_trial_balance,fees_balance,numeric
+nls,relationship_codes,contact_type,numeric
+nls,cif_detail,userdef14,character varying
+nls,loanacct_payment_history,transaction_code,numeric
+nls,nlsusers,deletion_date,timestamp without time zone
+nls,loan_transaction_codes,loan_statistics_2_affected,character varying
+nls,loanacct_detail,userdef14,character varying
+nls,loanacct_gl_trans,gl_credit,numeric
+nls,loanacct,risk_rating_no,numeric
+nls,cdfi,naicscode,numeric
+nls,daily_trial_balance,udf2_balance,numeric
+nls,relationship_codes,rec_src,character varying
+nls,cif_detail,userdef15,character varying
+nls,loanacct_payment_history,user_reference,character varying
+nls,nlsusers,salutation,character varying
+nls,loan_transaction_codes,payment_associated_trans,numeric
+nls,loanacct_detail,userdef15,character varying
+nls,loanacct_gl_trans,transferred_flag,numeric
+nls,loanacct,loan_number,character varying
+nls,cdfi,creditscore,numeric
+nls,daily_trial_balance,suspense_balance,numeric
+nls,relationship_codes,load_date,character varying
+nls,cif_detail,userdef16,character varying
+nls,loanacct_payment_history,memoentry,numeric
+nls,nlsusers,firstname,character varying
+nls,loan_transaction_codes,add_payment_history,numeric
+nls,loanacct_detail,userdef16,character varying
+nls,loanacct_gl_trans,gl_debit_summary_id,numeric
+nls,loanacct,tin,character varying
+nls,cdfi,gender,numeric
+nls,daily_trial_balance,late_charges_balance,numeric
+nls,relationship_codes,job_id,character varying
+nls,cif_detail,userdef17,character varying
+nls,loanacct_payment_history,payment_method_no,numeric
+nls,nlsusers,middlename,character varying
+nls,loan_transaction_codes,loan_stats_3_trans_type,character varying
+nls,loanacct_detail,userdef17,character varying
+nls,loanacct_gl_trans,transferred_date,timestamp without time zone
+nls,loanacct,entity,character varying
+nls,cdfi,race,numeric
+nls,daily_trial_balance,daily_per_diem,numeric
+nls,cif_detail,userdef18,character varying
+nls,loanacct_payment_history,payment_method_reference,character varying
+nls,nlsusers,lastname,character varying
+nls,loan_transaction_codes,loan_stats_4_trans_type,character varying
+nls,loanacct_detail,userdef18,character varying
+nls,loanacct_gl_trans,gl_credit_summary_id,numeric
+nls,loanacct,input_date,timestamp without time zone
+nls,cdfi,jobstimeofinvestment,numeric
+nls,daily_trial_balance,udf3_balance,numeric
+nls,cif_detail,userdef19,character varying
+nls,loanacct_payment_history,late_fee_code,numeric
+nls,nlsusers,suffix,character varying
+nls,loan_transaction_codes,loan_stats_2_trans_type,character varying
+nls,loanacct_detail,userdef19,character varying
+nls,loanacct_gl_trans,user_defined_text,character varying
+nls,loanacct,input_gl_date,timestamp without time zone
+nls,cdfi,jobsreportingperiodend,numeric
+nls,daily_trial_balance,udf4_balance,numeric
+nls,cif_detail,userdef20,character varying
+nls,loanacct_payment_history,batch_no,numeric
+nls,nlsusers,title,character varying
+nls,loan_transaction_codes,option_flags,numeric
+nls,loanacct_detail,userdef20,character varying
+nls,loanacct_gl_trans,suppress_transfer_flag,numeric
+nls,loanacct,status_code_no,numeric
+nls,cdfi,litpendusers,numeric
+nls,daily_trial_balance,loan_origination_date,timestamp without time zone
+nls,cif_detail,userdef21,character varying
+nls,nlsusers,office,character varying
+nls,loan_transaction_codes,trans1_debit_code,numeric
+nls,loanacct_detail,userdef21,character varying
+nls,loanacct_gl_trans,currencyid,numeric
+nls,loanacct,loan_officer_no,numeric
+nls,cdfi,otpeendusers,numeric
+nls,loanacct_payment_history,userdef01,character varying
+nls,daily_trial_balance,loan_maturity_date,timestamp without time zone
+nls,cif_detail,userdef22,character varying
+nls,loanacct_payment_history,ach_trace_number,character varying
+nls,nlsusers,department,character varying
+nls,loan_transaction_codes,trans1_credit_code,numeric
+nls,loanacct_detail,userdef22,character varying
+nls,loanacct_gl_trans,intaccrual_row_id,numeric
+nls,loanacct,open_date,timestamp without time zone
+nls,cdfi,iaendusers,numeric
+nls,daily_trial_balance,udf5_balance,numeric
+nls,cif_detail,userdef23,character varying
+nls,loanacct_payment_history,userdef02,character varying
+nls,nlsusers,street_address1,character varying
+nls,loan_transaction_codes,trans2_debit_code,numeric
+nls,loanacct_detail,userdef23,character varying
+nls,loanacct_gl_trans,prev_loan_group_trans_flag,numeric
+nls,loanacct,collection_officer_no,numeric
+nls,cdfi,bankedatintake,numeric
+nls,daily_trial_balance,udf6_balance,numeric
+nls,cif_detail,userdef24,character varying
+nls,loanacct_payment_history,userdef03,character varying
+nls,nlsusers,street_address2,character varying
+nls,loan_transaction_codes,trans2_credit_code,numeric
+nls,loanacct_detail,userdef24,character varying
+nls,loanacct_gl_trans,gl_debit_string,character varying
+nls,loanacct,curr_date,timestamp without time zone
+nls,cdfi,grossrevattimeofinv,numeric
+nls,daily_trial_balance,udf7_balance,numeric
+nls,cif_detail,userdef25,character varying
+nls,loanacct_payment_history,userdef04,character varying
+nls,nlsusers,city,character varying
+nls,loan_transaction_codes,transaction_notes,character varying
+nls,loanacct_detail,userdef25,character varying
+nls,loanacct_gl_trans,gl_credit_string,character varying
+nls,loanacct,open_maturity_date,timestamp without time zone
+nls,cdfi,includeinreportflag,numeric
+nls,daily_trial_balance,udf8_balance,numeric
+nls,cif_detail,userdef26,character varying
+nls,loanacct_payment_history,userdef05,character varying
+nls,nlsusers,state,character varying
+nls,loan_transaction_codes,trans3_debit_code,numeric
+nls,loanacct_detail,userdef26,character varying
+nls,loanacct,curr_maturity_date,timestamp without time zone
+nls,cdfi,descofotherapprovedotptargeted,character varying
+nls,daily_trial_balance,ol1_balance,numeric
+nls,cif_detail,userdef27,character varying
+nls,loanacct_payment_history,nsf_flag,numeric
+nls,nlsusers,zip,character varying
+nls,loan_transaction_codes,trans3_credit_code,numeric
+nls,loanacct_detail,userdef27,character varying
+nls,loanacct,payoff_date,timestamp without time zone
+nls,cdfi,descofotherapprovedotpenduser,character varying
+nls,daily_trial_balance,unamortized_inc_balance,numeric
+nls,cif_detail,userdef28,character varying
+nls,loanacct_payment_history,nsf_date,timestamp without time zone
+nls,nlsusers,country,character varying
+nls,loan_transaction_codes,trans4_debit_code,numeric
+nls,loanacct_detail,userdef28,character varying
+nls,loanacct,closed_date,timestamp without time zone
+nls,daily_trial_balance,ol2_balance,numeric
+nls,cdfi,creditscorepicklist,numeric
+nls,cif_detail,userdef29,character varying
+nls,loanacct_payment_history,bulk_payment_id,numeric
+nls,nlsusers,home1_phone,character varying
+nls,loan_transaction_codes,trans4_credit_code,numeric
+nls,loanacct_detail,userdef29,character varying
+nls,loanacct,last_activity_date,timestamp without time zone
+nls,daily_trial_balance,ol3_balance,numeric
+nls,cif_detail,userdef30,character varying
+nls,loanacct_payment_history,paid_by_cifno,numeric
+nls,nlsusers,home2_phone,character varying
+nls,loan_transaction_codes,trans5_debit_code,numeric
+nls,loanacct_detail,userdef30,character varying
+nls,loanacct,processing_start_date,timestamp without time zone
+nls,daily_trial_balance,udf9_balance,numeric
+nls,cif_detail,userdef31,character varying
+nls,nlsusers,home_fax_phone,character varying
+nls,loan_transaction_codes,trans5_credit_code,numeric
+nls,loanacct_detail,userdef31,character varying
+nls,loanacct,interest_paid_thru_date,timestamp without time zone
+nls,daily_trial_balance,udf10_balance,numeric
+nls,cif_detail,userdef32,character varying
+nls,nlsusers,business1_phone,character varying
+nls,loan_transaction_codes,trans6_debit_code,numeric
+nls,loanacct_detail,userdef32,character varying
+nls,loanacct,principal_paid_thru_date,timestamp without time zone
+nls,daily_trial_balance,days_past_due,numeric
+nls,cif_detail,userdef33,character varying
+nls,nlsusers,business2_phone,character varying
+nls,loan_transaction_codes,trans6_credit_code,numeric
+nls,loanacct_detail,userdef33,character varying
+nls,loanacct,interest_accrued_thru_date,timestamp without time zone
+nls,daily_trial_balance,eff_loan_amount,numeric
+nls,cif_detail,userdef34,character varying
+nls,nlsusers,business_fax_phone,character varying
+nls,loan_transaction_codes,voucher_type_code_id,numeric
+nls,loanacct_detail,userdef34,character varying
+nls,loanacct,original_note_amount,numeric
+nls,daily_trial_balance,eff_principal_balance,numeric
+nls,cif_detail,userdef35,character varying
+nls,nlsusers,mobile_phone,character varying
+nls,loan_transaction_codes,force_voucher,numeric
+nls,loanacct_detail,userdef35,character varying
+nls,loanacct,current_note_amount,numeric
+nls,daily_trial_balance,eff_interest_balance,numeric
+nls,cif_detail,userdef36,character varying
+nls,nlsusers,pager_phone,character varying
+nls,loan_transaction_codes,voucher_reference,character varying
+nls,loanacct_detail,userdef36,character varying
+nls,loanacct,current_principal_balance,numeric
+nls,daily_trial_balance,eff_fees_balance,numeric
+nls,cif_detail,userdef37,character varying
+nls,nlsusers,other_phone,character varying
+nls,loan_transaction_codes,non_accrual_debit_code,numeric
+nls,loanacct_detail,userdef37,character varying
+nls,loanacct,current_interest_balance,numeric
+nls,daily_trial_balance,eff_late_charges_balance,numeric
+nls,cif_detail,userdef38,character varying
+nls,loan_transaction_codes,non_accrual_credit_code,numeric
+nls,loanacct_detail,userdef38,character varying
+nls,loanacct,current_fees_balance,numeric
+nls,daily_trial_balance,eff_suspense_balance,numeric
+nls,nlsusers,email,character varying
+nls,cif_detail,userdef39,character varying
+nls,loan_transaction_codes,enter_charge_off_debit_code,numeric
+nls,loanacct_detail,userdef39,character varying
+nls,loanacct,current_def_interest_balance,numeric
+nls,daily_trial_balance,eff_udf1_balance,numeric
+nls,nlsusers,email2,character varying
+nls,cif_detail,userdef40,character varying
+nls,nlsusers,managers_userno,numeric
+nls,loan_transaction_codes,enter_charge_off_credit_code,numeric
+nls,loanacct_detail,userdef40,character varying
+nls,loanacct,current_late_charge_balance,numeric
+nls,daily_trial_balance,eff_udf2_balance,numeric
+nls,cif_detail,userdef41,character varying
+nls,nlsusers,windows_auth_only,numeric
+nls,loan_transaction_codes,charge_off_debit_code,numeric
+nls,loanacct_detail,userdef41,character varying
+nls,loanacct,current_payoff_balance,numeric
+nls,daily_trial_balance,eff_udf3_balance,numeric
+nls,cif_detail,userdef42,character varying
+nls,nlsusers,assistants_userno,numeric
+nls,loan_transaction_codes,charge_off_credit_code,numeric
+nls,loanacct_detail,userdef42,character varying
+nls,loanacct,current_udf1_balance,numeric
+nls,daily_trial_balance,eff_udf4_balance,numeric
+nls,cif_detail,userdef43,character varying
+nls,nlsusers,user_type,numeric
+nls,loan_transaction_codes,force_due_date_to_system_date,numeric
+nls,loanacct_detail,userdef43,character varying
+nls,loanacct,current_perdiem,numeric
+nls,daily_trial_balance,eff_udf5_balance,numeric
+nls,cif_detail,userdef44,character varying
+nls,nlsusers,logon_hours,character varying
+nls,loanacct_detail,userdef44,character varying
+nls,loanacct,current_suspense,numeric
+nls,daily_trial_balance,eff_udf6_balance,numeric
+nls,loan_transaction_codes,charge_off_debit_code2,numeric
+nls,cif_detail,userdef45,character varying
+nls,nlsusers,readonly_flag,numeric
+nls,loanacct_detail,userdef45,character varying
+nls,loanacct,current_udf2_balance,numeric
+nls,daily_trial_balance,eff_udf7_balance,numeric
+nls,loan_transaction_codes,charge_off_credit_code2,numeric
+nls,cif_detail,userdef46,character varying
+nls,nlsusers,telephonypin,character varying
+nls,loanacct_detail,userdef46,character varying
+nls,loanacct,current_interest_rate,numeric
+nls,daily_trial_balance,eff_udf8_balance,numeric
+nls,loan_transaction_codes,non_accrual_credit_code2,numeric
+nls,cif_detail,userdef47,character varying
+nls,nlsusers,telephonyextension,character varying
+nls,loanacct_detail,userdef47,character varying
+nls,loanacct,current_udf3_balance,numeric
+nls,daily_trial_balance,eff_udf9_balance,numeric
+nls,loan_transaction_codes,enter_charge_off_debit_code2,numeric
+nls,cif_detail,userdef48,character varying
+nls,nlsusers,telephonytsr,character varying
+nls,loanacct_detail,userdef48,character varying
+nls,loanacct,total_past_due_balance,numeric
+nls,daily_trial_balance,eff_udf10_balance,numeric
+nls,loan_transaction_codes,enter_charge_off_credit_code2,numeric
+nls,cif_detail,userdef49,character varying
+nls,nlsusers,telephonylistid,character varying
+nls,loanacct_detail,userdef49,character varying
+nls,loanacct,current_udf4_balance,numeric
+nls,daily_trial_balance,eff_unamortized_inc_balance,numeric
+nls,loan_transaction_codes,non_accrual_debit_code2,numeric
+nls,cif_detail,userdef50,character varying
+nls,nlsusers,telephonyappl,character varying
+nls,loanacct_detail,userdef50,character varying
+nls,loanacct,total_current_due_balance,numeric
+nls,daily_trial_balance,eff_days_past_due,numeric
+nls,cif_detail,userdef51,character varying
+nls,nlsusers,telephonyscriptinput,character varying
+nls,loanacct_detail,userdef51,character varying
+nls,loanacct,current_udf5_balance,numeric
+nls,daily_trial_balance,def_interest_balance,numeric
+nls,cif_detail,userdef52,character varying
+nls,loanacct_detail,userdef52,character varying
+nls,loanacct,current_udf6_balance,numeric
+nls,daily_trial_balance,eff_def_interest_balance,numeric
+nls,nlsusers,mfa_flag,numeric
+nls,cif_detail,userdef53,character varying
+nls,loanacct_detail,userdef53,character varying
+nls,loanacct,starting_interest_rate,numeric
+nls,daily_trial_balance,eff_ol1_balance,numeric
+nls,nlsusers,mfa_login_attempts,numeric
+nls,cif_detail,userdef54,character varying
+nls,loanacct_detail,userdef54,character varying
+nls,loanacct,times_renewed,numeric
+nls,daily_trial_balance,def_interest_rate,numeric
+nls,nlsusers,mfa_phone,character varying
+nls,cif_detail,userdef55,character varying
+nls,loanacct_detail,userdef55,character varying
+nls,loanacct,current_def_perdiem,numeric
+nls,daily_trial_balance,eff_ol2_balance,numeric
+nls,nlsusers,mfa_locked_flag,numeric
+nls,cif_detail,userdef56,character varying
+nls,loanacct_detail,userdef56,character varying
+nls,loanacct,current_impound_balance,numeric
+nls,daily_trial_balance,gl_loan_amount,numeric
+nls,nlsusers,mfa_phone_subscribed,numeric
+nls,cif_detail,userdef57,character varying
+nls,loanacct_detail,userdef57,character varying
+nls,loanacct,current_ol1_balance,numeric
+nls,daily_trial_balance,eff_ol3_balance,numeric
+nls,nlsusers,interface_user_flag,numeric
+nls,cif_detail,userdef58,character varying
+nls,loanacct_detail,userdef58,character varying
+nls,loanacct,current_udf7_balance,numeric
+nls,daily_trial_balance,gl_principal_balance,numeric
+nls,nlsusers,authentication_secret,character varying
+nls,cif_detail,userdef59,character varying
+nls,loanacct_detail,userdef59,character varying
+nls,loanacct,current_ol2_balance,numeric
+nls,daily_trial_balance,gl_interest_balance,numeric
+nls,nlsusers,upn,character varying
+nls,cif_detail,userdef60,character varying
+nls,loanacct_detail,userdef60,character varying
+nls,loanacct,starting_year_interest_rate,numeric
+nls,daily_trial_balance,gl_def_interest_balance,numeric
+nls,cif_detail,userdef61,character varying
+nls,loanacct_detail,userdef61,character varying
+nls,loanacct,current_ol3_balance,numeric
+nls,daily_trial_balance,gl_fees_balance,numeric
+nls,cif_detail,userdef62,character varying
+nls,loanacct_detail,userdef62,character varying
+nls,loanacct,current_udf8_balance,numeric
+nls,daily_trial_balance,gl_late_charges_balance,numeric
+nls,cif_detail,userdef63,character varying
+nls,loanacct_detail,userdef63,character varying
+nls,loanacct,last_rate_change_date,timestamp without time zone
+nls,daily_trial_balance,gl_suspense_balance,numeric
+nls,cif_detail,userdef64,character varying
+nls,loanacct_detail,userdef64,character varying
+nls,loanacct,current_udf9_balance,numeric
+nls,daily_trial_balance,gl_udf1_balance,numeric
+nls,cif_detail,userdef65,character varying
+nls,loanacct_detail,userdef65,character varying
+nls,loanacct,times_extended,numeric
+nls,daily_trial_balance,gl_udf2_balance,numeric
+nls,cif_detail,userdef66,character varying
+nls,loanacct_detail,userdef66,character varying
+nls,loanacct,current_udf10_balance,numeric
+nls,daily_trial_balance,gl_udf3_balance,numeric
+nls,cif_detail,userdef67,character varying
+nls,loanacct_detail,userdef67,character varying
+nls,loanacct,next_rate_change_date,timestamp without time zone
+nls,daily_trial_balance,gl_udf4_balance,numeric
+nls,cif_detail,userdef68,character varying
+nls,loanacct_detail,userdef68,character varying
+nls,loanacct,next_interest_step_date,timestamp without time zone
+nls,daily_trial_balance,gl_udf5_balance,numeric
+nls,cif_detail,userdef69,character varying
+nls,loanacct_detail,userdef69,character varying
+nls,loanacct,default_interest_indicator,numeric
+nls,daily_trial_balance,gl_udf6_balance,numeric
+nls,cif_detail,userdef70,character varying
+nls,loanacct_detail,userdef70,character varying
+nls,loanacct,addonint_total,numeric
+nls,daily_trial_balance,gl_udf7_balance,numeric
+nls,cif_detail,userdef71,character varying
+nls,loanacct_detail,userdef71,character varying
+nls,loanacct,addonint_remaining,numeric
+nls,daily_trial_balance,gl_udf8_balance,numeric
+nls,cif_detail,userdef72,character varying
+nls,loanacct_detail,userdef72,character varying
+nls,loanacct,starting_year_def_int_rate,numeric
+nls,daily_trial_balance,gl_udf9_balance,numeric
+nls,cif_detail,userdef73,character varying
+nls,loanacct_detail,userdef73,character varying
+nls,loanacct,starting_def_interest_rate,numeric
+nls,daily_trial_balance,gl_udf10_balance,numeric
+nls,cif_detail,userdef74,character varying
+nls,loanacct_detail,userdef74,character varying
+nls,loanacct,next_rate_change_notice_date,timestamp without time zone
+nls,daily_trial_balance,gl_unamortized_inc_balance,numeric
+nls,cif_detail,userdef75,character varying
+nls,loanacct_detail,userdef75,character varying
+nls,loanacct,compound_interest_balance,numeric
+nls,daily_trial_balance,gl_ol1_balance,numeric
+nls,cif_detail,userdef76,character varying
+nls,loanacct_detail,userdef76,character varying
+nls,loanacct,current_def_interest_rate,numeric
+nls,daily_trial_balance,gl_ol2_balance,numeric
+nls,cif_detail,userdef77,character varying
+nls,loanacct_detail,userdef77,character varying
+nls,loanacct,next_accrual_cutoff,timestamp without time zone
+nls,daily_trial_balance,gl_ol3_balance,numeric
+nls,cif_detail,userdef78,character varying
+nls,loanacct_detail,userdef78,character varying
+nls,loanacct,last_def_rate_change_date,timestamp without time zone
+nls,daily_trial_balance,servicing_balance,numeric
+nls,cif_detail,userdef79,character varying
+nls,loanacct_detail,userdef79,character varying
+nls,loanacct,next_def_rate_change_date,timestamp without time zone
+nls,daily_trial_balance,eff_servicing_balance,numeric
+nls,cif_detail,userdef80,character varying
+nls,loanacct_detail,userdef80,character varying
+nls,loanacct,next_billing_date,timestamp without time zone
+nls,daily_trial_balance,gl_servicing_balance,numeric
+nls,loanacct,next_recurring_trans_date,timestamp without time zone
+nls,daily_trial_balance,reserve_balance,numeric
+nls,loanacct,next_def_interest_step_date,timestamp without time zone
+nls,daily_trial_balance,eff_reserve_balance,numeric
+nls,loanacct,next_statement1_date,timestamp without time zone
+nls,daily_trial_balance,gl_reserve_balance,numeric
+nls,loanacct,next_def_rate_change_notice,timestamp without time zone
+nls,daily_trial_balance,impound_balance,numeric
+nls,loanacct,days_in_current_period,numeric
+nls,daily_trial_balance,eff_impound_balance,numeric
+nls,loanacct,default_def_interest_indicator,numeric
+nls,daily_trial_balance,gl_impound_balance,numeric
+nls,loanacct,next_statement2_date,timestamp without time zone
+nls,daily_trial_balance,gl_days_past_due,numeric
+nls,loanacct,next_amort_fees_date,timestamp without time zone
+nls,daily_trial_balance,unamortized_exp_balance,numeric
+nls,loanacct,amortized_fees_eim_flag,numeric
+nls,daily_trial_balance,eff_unamortized_exp_balance,numeric
+nls,loanacct,days_past_due,numeric
+nls,daily_trial_balance,gl_unamortized_exp_balance,numeric
+nls,loanacct,compound_def_interest_balance,numeric
+nls,daily_trial_balance,adb_interest_balance,numeric
+nls,loanacct,compound_interest_indicator,numeric
+nls,daily_trial_balance,eff_adb_interest_balance,numeric
+nls,loanacct,compound_def_int_indicator,numeric
+nls,daily_trial_balance,gl_adb_interest_balance,numeric
+nls,loanacct,current_servicing_balance,numeric
+nls,daily_trial_balance,portfolio_code_id,numeric
+nls,loanacct,current_reserve_balance,numeric
+nls,daily_trial_balance,modified_date_utc,timestamp without time zone
+nls,loanacct,sac_expiration_date,timestamp without time zone
+nls,loanacct,sac_ineligible_date,timestamp without time zone
+nls,loanacct,currencyid,numeric
+nls,loanacct,intro_interest_expiration,timestamp without time zone
+nls,loanacct,intro_def_interest_expiration,timestamp without time zone
+nls,loanacct,tin_hash,character varying
+nls,loanacct,current_adb_interest_balance,numeric
+nls,loanacct,branch_cifno,numeric
+nls,loanacct,statement1_billing_end_date,timestamp without time zone
+nls,loanacct,statement2_billing_end_date,timestamp without time zone
+nls,loanacct,current_tierrateno,numeric
+nls,loanacct,current_def_tierrateno,numeric
+nls,loanacct,non_accrual_start_date,timestamp without time zone
+nls,loanacct,charge_off_start_date,timestamp without time zone
+nls,loanacct,last_billing_date,timestamp without time zone
+nls,loanacct,lcguid,character varying
+nls,loanacct,lcguiddate,timestamp without time zone
+nls,loanacct,funded_date,timestamp without time zone
+nls,loanacct,borrower_loan_nickname,character varying
+nls,loanacct,contractualjurisdiction,character varying
+nls,loanacct,original_recourse_amount,numeric
+nls,loanacct,servicing_loan_group_no,numeric
+nls,loanacct,concurrency_control,timestamp without time zone

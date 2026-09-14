@@ -1,0 +1,99 @@
+{
+  "best_model": "GradientBoosting",
+  "selection_metric": "roc_auc",
+  "accuracy": 0.912,
+  "precision": 0.8961538461538462,
+  "recall": 0.932,
+  "roc_auc": 0.977872,
+  "n_train": 1500,
+  "n_test": 500,
+  "default_rate_train": 0.5,
+  "default_rate_test": 0.5,
+  "confusion_matrix": [
+    [
+      223,
+      27
+    ],
+    [
+      17,
+      233
+    ]
+  ],
+  "classification_report": {
+    "Active(0)": {
+      "precision": 0.9291666666666667,
+      "recall": 0.892,
+      "f1-score": 0.9102040816326531,
+      "support": 250.0
+    },
+    "ChargedOff(1)": {
+      "precision": 0.8961538461538462,
+      "recall": 0.932,
+      "f1-score": 0.9137254901960784,
+      "support": 250.0
+    },
+    "accuracy": 0.912,
+    "macro avg": {
+      "precision": 0.9126602564102564,
+      "recall": 0.912,
+      "f1-score": 0.9119647859143658,
+      "support": 500.0
+    },
+    "weighted avg": {
+      "precision": 0.9126602564102565,
+      "recall": 0.912,
+      "f1-score": 0.9119647859143658,
+      "support": 500.0
+    }
+  },
+  "model_comparison": [
+    {
+      "model": "LogisticRegression",
+      "accuracy": 0.908,
+      "precision": 0.8923076923076924,
+      "recall": 0.928,
+      "roc_auc": 0.971904
+    },
+    {
+      "model": "RandomForest",
+      "accuracy": 0.91,
+      "precision": 0.8957528957528957,
+      "recall": 0.928,
+      "roc_auc": 0.971408
+    },
+    {
+      "model": "GradientBoosting",
+      "accuracy": 0.912,
+      "precision": 0.8961538461538462,
+      "recall": 0.932,
+      "roc_auc": 0.977872
+    }
+  ],
+  "leakage_check": "PASSED \u2014 no leakage columns in features",
+  "features_used": [
+    "creditscore",
+    "annualgrossrevenue",
+    "grossrevattimeofinv",
+    "naicscode",
+    "entitystructure",
+    "investeetype",
+    "bankedatintake",
+    "jobstimeofinvestment",
+    "business_age_years",
+    "original_note_amount",
+    "current_interest_rate",
+    "starting_interest_rate",
+    "loan_type",
+    "portfolio_code_id",
+    "loan_group_no",
+    "entity",
+    "risk_rating_no",
+    "loan_age_months",
+    "times_renewed",
+    "times_extended",
+    "current_principal_balance",
+    "current_payoff_balance",
+    "contractualjurisdiction"
+  ],
+  "leakage_blocklist_size": 34
+}

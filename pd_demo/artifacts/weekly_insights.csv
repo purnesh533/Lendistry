@@ -1,0 +1,7 @@
+week,risk_band,applications,later_defaulted_demo,default_rate_demo
+This week,Risky,7,6,0.857
+This week,Moderately risky,1,0,0.0
+This week,Lower risk,9,1,0.111
+Last week,Risky,11,10,0.909
+Last week,Moderately risky,2,1,0.5
+Last week,Lower risk,10,0,0.0

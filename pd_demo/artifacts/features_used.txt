@@ -1,0 +1,69 @@
+Lendistry PD Demo — features used (leakage-safe)
+Target: is_default (1=Charged-Off / default, 0=Active-like)
+Best model: GradientBoosting (selected by ROC AUC)
+
+CANDIDATES COMPARED:
+  - GradientBoosting: AUC=0.9779, Acc=0.9120
+  - LogisticRegression: AUC=0.9719, Acc=0.9080
+  - RandomForest: AUC=0.9714, Acc=0.9100
+
+FEATURES:
+  - creditscore
+  - annualgrossrevenue
+  - grossrevattimeofinv
+  - naicscode
+  - entitystructure
+  - investeetype
+  - bankedatintake
+  - jobstimeofinvestment
+  - business_age_years
+  - original_note_amount
+  - current_interest_rate
+  - starting_interest_rate
+  - loan_type
+  - portfolio_code_id
+  - loan_group_no
+  - entity
+  - risk_rating_no
+  - loan_age_months
+  - times_renewed
+  - times_extended
+  - current_principal_balance
+  - current_payoff_balance
+  - contractualjurisdiction
+
+LEAKAGE BLOCKLIST (excluded):
+  - acctrefno
+  - borrower_loan_nickname
+  - charge_off_start_date
+  - cifno
+  - closed_date
+  - collection_officer_no
+  - compound_def_int_indicator
+  - compound_def_interest_balance
+  - current_def_interest_balance
+  - current_def_interest_rate
+  - current_def_perdiem
+  - current_late_charge_balance
+  - days_past_due
+  - default_def_interest_indicator
+  - default_interest_indicator
+  - derived_status
+  - eff_days_past_due
+  - gl_days_past_due
+  - late_charges_balance
+  - loan_number
+  - loan_status
+  - name
+  - non_accrual_start_date
+  - password
+  - payoff_date
+  - shortname
+  - signonid
+  - starting_def_interest_rate
+  - starting_year_def_int_rate
+  - status_code_no
+  - tin
+  - tin_hash
+  - total_current_due_balance
+  - total_past_due_balance
