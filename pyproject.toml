@@ -13,4 +13,4 @@ dependencies = [
 ]
 
 [tool.vercel]
-entrypoint = "pd_demo.server:app"
+entrypoint = "server:app"
