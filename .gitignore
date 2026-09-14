@@ -17,3 +17,9 @@ Loan Data Excel/
 Thumbs.db
 .idea/
 .vscode/
+
+.vercel-deploy-files.json
+.vercel-deploy-payload.json
+**/.vercel/
+**/__pycache__/
+
