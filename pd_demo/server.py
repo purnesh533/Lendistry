@@ -44,7 +44,7 @@ app = FastAPI(title="Lendistry PD Demo", version="2.1")
 
 
 class ScoreRequest(BaseModel):
-    creditscore: int = Field(ge=500, le=850)
+    creditscore: int = Field(ge=300, le=850)
     annualgrossrevenue: float
     grossrevattimeofinv: Optional[float] = None
     naicscode: int = 541511
@@ -263,24 +263,27 @@ def score_loan(body: ScoreRequest) -> dict[str, Any]:
     for col in FEATURE_COLUMNS:
         if col not in row.columns:
             raise HTTPException(400, f"Missing feature: {col}")
-    scored = score_dataframe(row)
-    r = scored.iloc[0]
-    pd_prob = float(r["pd_probability"])
-    band = str(r["risk_band"])
-    return {
-        "pd_probability": pd_prob,
-        "risk_band": band,
-        "recommendation": str(r["recommendation"]),
-        "why_flagged": why_flagged_row(r),
-        "plain_english_risk": plain_english_risk(pd_prob),
-        "threshold": threshold,
-        "predicted_default": bool(pd_prob >= threshold),
-        "plain_english": (
-            "Likely will not repay (default risk)"
-            if pd_prob >= threshold
-            else "Likely will repay (performing)"
-        ),
-    }
+    try:
+        scored = score_dataframe(row)
+        r = scored.iloc[0]
+        pd_prob = float(r["pd_probability"])
+        band = str(r["risk_band"])
+        return {
+            "pd_probability": pd_prob,
+            "risk_band": band,
+            "recommendation": str(r["recommendation"]),
+            "why_flagged": why_flagged_row(r),
+            "plain_english_risk": plain_english_risk(pd_prob),
+            "threshold": threshold,
+            "predicted_default": bool(pd_prob >= threshold),
+            "plain_english": (
+                "Likely will not repay (default risk)"
+                if pd_prob >= threshold
+                else "Likely will repay (performing)"
+            ),
+        }
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Scoring failed: {type(exc).__name__}: {exc}") from exc
 
 
 @app.get("/")

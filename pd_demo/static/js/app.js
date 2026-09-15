@@ -870,7 +870,7 @@ function adminScoreForm() {
     </div>
     <form id="score-form" onsubmit="return false;">
       <div class="form-grid">
-        <label class="field">Credit score<input type="number" name="creditscore" value="650" min="500" max="850" /></label>
+        <label class="field">Credit score<input type="number" name="creditscore" value="650" min="300" max="850" /></label>
         <label class="field">Annual revenue<input type="number" name="annualgrossrevenue" value="1500000" /></label>
         <label class="field">Note amount<input type="number" name="original_note_amount" value="250000" /></label>
         <label class="field">Interest rate %<input type="number" step="0.1" name="current_interest_rate" value="9.5" /></label>
